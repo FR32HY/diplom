@@ -1,0 +1,2767 @@
+2025-09-16 00:10:45 [::1][-][fa2fbf72d4ccfe97d01dcc353be32203][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "drivers/index". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('drivers/index', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-09-16 00:10:45 [::1][-][fa2fbf72d4ccfe97d01dcc353be32203][info][application] $_GET = [
+    'r' => 'drivers/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fa2fbf72d4ccfe97d01dcc353be32203'
+    '_csrf' => '94490470993db68751a2a86168c3dc9a4f80f5705241f5ca7eb82da07b9b1d27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"M7VEKCPQH1W__Cbga9fc0s_l5qrvx0hU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51213'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/index.php?r=drivers%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=drivers%2Findex'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_PRIORITY' => 'u=0, i'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=fa2fbf72d4ccfe97d01dcc353be32203; _csrf=94490470993db68751a2a86168c3dc9a4f80f5705241f5ca7eb82da07b9b1d27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22M7VEKCPQH1W__Cbga9fc0s_l5qrvx0hU%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1757981445.0293
+    'REQUEST_TIME' => 1757981445
+]
+2025-09-16 01:01:05 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class "m250916_010048_lesson_table" does not exist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php:507
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php(507): ReflectionClass->__construct('m250916_010048_...')
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php(385): yii\di\Container->getDependencies('m250916_010048_...')
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php(170): yii\di\Container->build('m250916_010048_...', Array, Array)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m250916_010048_...', Array, Array)
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/MigrateController.php(199): yii\BaseYii::createObject(Array)
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(757): yii\console\controllers\MigrateController->createMigration('m250916_010048_...')
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(216): yii\console\controllers\BaseMigrateController->migrateUp('m250916_010048_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('', Array)
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#14 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/yii(20): yii\base\Application->run()
+#16 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "m250916_010048_lesson_table". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php:509
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php(385): yii\di\Container->getDependencies('m250916_010048_...')
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php(170): yii\di\Container->build('m250916_010048_...', Array, Array)
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m250916_010048_...', Array, Array)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/MigrateController.php(199): yii\BaseYii::createObject(Array)
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(757): yii\console\controllers\MigrateController->createMigration('m250916_010048_...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(216): yii\console\controllers\BaseMigrateController->migrateUp('m250916_010048_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('', Array)
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/yii(20): yii\base\Application->run()
+#15 {main}
+2025-09-16 01:01:02 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MallocNanoZone' => '0'
+    'USER' => 'fr32hy'
+    'COMMAND_MODE' => 'unix2003'
+    '__CFBundleIdentifier' => 'com.microsoft.VSCode'
+    'PATH' => '/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin'
+    'LOGNAME' => 'fr32hy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.dZOc0G3bOg/Listeners'
+    'HOME' => '/Users/fr32hy'
+    'SHELL' => '/bin/zsh'
+    'TMPDIR' => '/var/folders/n2/bkh6sw453zd5qgj97vx82tq40000gp/T/'
+    '__CF_USER_TEXT_ENCODING' => '0x1F6:0x7:0x31'
+    'XPC_SERVICE_NAME' => '0'
+    'XPC_FLAGS' => '0x0'
+    'ORIGINAL_XDG_CURRENT_DESKTOP' => 'undefined'
+    'SHLVL' => '1'
+    'PWD' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles'
+    'OLDPWD' => '/Users/fr32hy/Desktop/Other/praktika'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'INFOPATH' => '/opt/homebrew/share/info:/opt/homebrew/share/info:'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.101.1'
+    'LANG' => 'en_US.UTF-8'
+    'COLORTERM' => 'truecolor'
+    'GIT_ASKPASS' => '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'
+    'VSCODE_GIT_ASKPASS_NODE' => '/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)'
+    'VSCODE_GIT_ASKPASS_EXTRA_ARGS' => ''
+    'VSCODE_GIT_ASKPASS_MAIN' => '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'
+    'VSCODE_GIT_IPC_HANDLE' => '/var/folders/n2/bkh6sw453zd5qgj97vx82tq40000gp/T/vscode-git-e633835331.sock'
+    'VSCODE_INJECTION' => '1'
+    'ZDOTDIR' => '/Users/fr32hy'
+    'USER_ZDOTDIR' => '/Users/fr32hy'
+    'TERM' => 'xterm-256color'
+    'VSCODE_PROFILE_INITIALIZED' => '1'
+    'VSCODE_LOGIN_INITIALIZED' => '1'
+    '_' => '/opt/homebrew/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1757984462.2678
+    'REQUEST_TIME' => 1757984462
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2025-09-16 01:05:42 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class "m250916_003630_lesson_table" does not exist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php:507
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php(507): ReflectionClass->__construct('m250916_003630_...')
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php(385): yii\di\Container->getDependencies('m250916_003630_...')
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php(170): yii\di\Container->build('m250916_003630_...', Array, Array)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m250916_003630_...', Array, Array)
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/MigrateController.php(199): yii\BaseYii::createObject(Array)
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(785): yii\console\controllers\MigrateController->createMigration('m250916_003630_...')
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(280): yii\console\controllers\BaseMigrateController->migrateDown('m250916_003630_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('down', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('down', Array)
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#14 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/yii(20): yii\base\Application->run()
+#16 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "m250916_003630_lesson_table". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php:509
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php(385): yii\di\Container->getDependencies('m250916_003630_...')
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php(170): yii\di\Container->build('m250916_003630_...', Array, Array)
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m250916_003630_...', Array, Array)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/MigrateController.php(199): yii\BaseYii::createObject(Array)
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(785): yii\console\controllers\MigrateController->createMigration('m250916_003630_...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(280): yii\console\controllers\BaseMigrateController->migrateDown('m250916_003630_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('down', Array)
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('down', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/yii(20): yii\base\Application->run()
+#15 {main}
+2025-09-16 01:05:39 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MallocNanoZone' => '0'
+    'USER' => 'fr32hy'
+    'COMMAND_MODE' => 'unix2003'
+    '__CFBundleIdentifier' => 'com.microsoft.VSCode'
+    'PATH' => '/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin'
+    'LOGNAME' => 'fr32hy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.dZOc0G3bOg/Listeners'
+    'HOME' => '/Users/fr32hy'
+    'SHELL' => '/bin/zsh'
+    'TMPDIR' => '/var/folders/n2/bkh6sw453zd5qgj97vx82tq40000gp/T/'
+    '__CF_USER_TEXT_ENCODING' => '0x1F6:0x7:0x31'
+    'XPC_SERVICE_NAME' => '0'
+    'XPC_FLAGS' => '0x0'
+    'ORIGINAL_XDG_CURRENT_DESKTOP' => 'undefined'
+    'SHLVL' => '1'
+    'PWD' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles'
+    'OLDPWD' => '/Users/fr32hy/Desktop/Other/praktika'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'INFOPATH' => '/opt/homebrew/share/info:/opt/homebrew/share/info:'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.101.1'
+    'LANG' => 'en_US.UTF-8'
+    'COLORTERM' => 'truecolor'
+    'GIT_ASKPASS' => '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'
+    'VSCODE_GIT_ASKPASS_NODE' => '/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)'
+    'VSCODE_GIT_ASKPASS_EXTRA_ARGS' => ''
+    'VSCODE_GIT_ASKPASS_MAIN' => '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'
+    'VSCODE_GIT_IPC_HANDLE' => '/var/folders/n2/bkh6sw453zd5qgj97vx82tq40000gp/T/vscode-git-e633835331.sock'
+    'VSCODE_INJECTION' => '1'
+    'ZDOTDIR' => '/Users/fr32hy'
+    'USER_ZDOTDIR' => '/Users/fr32hy'
+    'TERM' => 'xterm-256color'
+    'VSCODE_PROFILE_INITIALIZED' => '1'
+    'VSCODE_LOGIN_INITIALIZED' => '1'
+    '_' => '/opt/homebrew/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1757984739.2353
+    'REQUEST_TIME' => 1757984739
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
+2025-09-23 00:27:07 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class "m250923_002650_schedule_table" does not exist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php:507
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php(507): ReflectionClass->__construct('m250923_002650_...')
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php(385): yii\di\Container->getDependencies('m250923_002650_...')
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php(170): yii\di\Container->build('m250923_002650_...', Array, Array)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m250923_002650_...', Array, Array)
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/MigrateController.php(199): yii\BaseYii::createObject(Array)
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(757): yii\console\controllers\MigrateController->createMigration('m250923_002650_...')
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(216): yii\console\controllers\BaseMigrateController->migrateUp('m250923_002650_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('', Array)
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#14 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/yii(20): yii\base\Application->run()
+#16 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "m250923_002650_schedule_table". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php:509
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php(385): yii\di\Container->getDependencies('m250923_002650_...')
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/di/Container.php(170): yii\di\Container->build('m250923_002650_...', Array, Array)
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m250923_002650_...', Array, Array)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/MigrateController.php(199): yii\BaseYii::createObject(Array)
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(757): yii\console\controllers\MigrateController->createMigration('m250923_002650_...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(216): yii\console\controllers\BaseMigrateController->migrateUp('m250923_002650_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction('', Array)
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction('', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/yii(20): yii\base\Application->run()
+#15 {main}
+2025-09-23 00:27:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MallocNanoZone' => '0'
+    'USER' => 'fr32hy'
+    'COMMAND_MODE' => 'unix2003'
+    '__CFBundleIdentifier' => 'com.microsoft.VSCode'
+    'PATH' => '/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin'
+    'LOGNAME' => 'fr32hy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.dZOc0G3bOg/Listeners'
+    'HOME' => '/Users/fr32hy'
+    'SHELL' => '/bin/zsh'
+    'TMPDIR' => '/var/folders/n2/bkh6sw453zd5qgj97vx82tq40000gp/T/'
+    '__CF_USER_TEXT_ENCODING' => '0x1F6:0x7:0x31'
+    'XPC_SERVICE_NAME' => '0'
+    'XPC_FLAGS' => '0x0'
+    'ORIGINAL_XDG_CURRENT_DESKTOP' => 'undefined'
+    'SHLVL' => '1'
+    'PWD' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles'
+    'OLDPWD' => '/Users/fr32hy/Desktop/Other/praktika'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'INFOPATH' => '/opt/homebrew/share/info:/opt/homebrew/share/info:'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.104.0'
+    'LANG' => 'en_US.UTF-8'
+    'COLORTERM' => 'truecolor'
+    'GIT_ASKPASS' => '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'
+    'VSCODE_GIT_ASKPASS_NODE' => '/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)'
+    'VSCODE_GIT_ASKPASS_EXTRA_ARGS' => ''
+    'VSCODE_GIT_ASKPASS_MAIN' => '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'
+    'VSCODE_GIT_IPC_HANDLE' => '/var/folders/n2/bkh6sw453zd5qgj97vx82tq40000gp/T/vscode-git-e633835331.sock'
+    'VSCODE_INJECTION' => '1'
+    'ZDOTDIR' => '/Users/fr32hy'
+    'USER_ZDOTDIR' => '/Users/fr32hy'
+    'TERM' => 'xterm-256color'
+    'VSCODE_PROFILE_INITIALIZED' => '1'
+    'VSCODE_PYTHON_AUTOACTIVATE_GUARD' => '1'
+    'VSCODE_LOGIN_INITIALIZED' => '1'
+    '_' => '/opt/homebrew/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1758587226.414
+    'REQUEST_TIME' => 1758587226
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2025-09-23 01:23:44 [::1][-][fa2fbf72d4ccfe97d01dcc353be32203][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "garages/index". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('garages/index', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-09-23 01:23:44 [::1][-][fa2fbf72d4ccfe97d01dcc353be32203][info][application] $_GET = [
+    'r' => 'garages/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fa2fbf72d4ccfe97d01dcc353be32203'
+    '_csrf' => '94490470993db68751a2a86168c3dc9a4f80f5705241f5ca7eb82da07b9b1d27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"M7VEKCPQH1W__Cbga9fc0s_l5qrvx0hU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '52139'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/index.php?r=garages%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=garages%2Findex'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_PRIORITY' => 'u=0, i'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=fa2fbf72d4ccfe97d01dcc353be32203; _csrf=94490470993db68751a2a86168c3dc9a4f80f5705241f5ca7eb82da07b9b1d27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22M7VEKCPQH1W__Cbga9fc0s_l5qrvx0hU%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1758590624.9047
+    'REQUEST_TIME' => 1758590624
+]
+2025-09-30 00:25:57 [::1][-][2ef6da204a3a87097618cd79626bf48c][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "apple-touch-icon-precomposed.png". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-09-30 00:25:57 [::1][-][2ef6da204a3a87097618cd79626bf48c][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63170'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/apple-touch-icon-precomposed.png'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/apple-touch-icon-precomposed.png'
+    'PHP_SELF' => '/index.php/apple-touch-icon-precomposed.png'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Safari/20619.1.26.31.6 CFNetwork/1568.100.1 Darwin/24.0.0'
+    'REQUEST_TIME_FLOAT' => 1759191957.3217
+    'REQUEST_TIME' => 1759191957
+]
+2025-09-30 00:25:57 [::1][-][2ef6da204a3a87097618cd79626bf48c][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "apple-touch-icon.png". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-09-30 00:25:57 [::1][-][2ef6da204a3a87097618cd79626bf48c][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '2ef6da204a3a87097618cd79626bf48c'
+    '_csrf' => 'e5470567d40dd507dba665a80cfa96510e970c9b80c2a0f1deeda50a85e57455a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uZ9wHV3W3VhJVJRC-ckpERik19QTh_GH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63171'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/apple-touch-icon.png'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/apple-touch-icon.png'
+    'PHP_SELF' => '/index.php/apple-touch-icon.png'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => 'PHPSESSID=2ef6da204a3a87097618cd79626bf48c; _csrf=e5470567d40dd507dba665a80cfa96510e970c9b80c2a0f1deeda50a85e57455a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uZ9wHV3W3VhJVJRC-ckpERik19QTh_GH%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Safari/20619.1.26.31.6 CFNetwork/1568.100.1 Darwin/24.0.0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1759191957.3283
+    'REQUEST_TIME' => 1759191957
+]
+2025-09-30 00:44:04 [::1][-][9735d7ea13fc9605d14506ca94344da5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "synth/synth.html". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('synth/synth.htm...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-09-30 00:44:04 [::1][-][9735d7ea13fc9605d14506ca94344da5][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '9735d7ea13fc9605d14506ca94344da5'
+    '_csrf' => '766951c709c907cd34e626a72f1e0c845cecf44cb367d4ce1455657c1446d8fea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2F5-wToA2JIk1zk-fV1A85ri4Iuf2VAv\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63788'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/synth/synth.html'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/synth/synth.html'
+    'PHP_SELF' => '/index.php/synth/synth.html'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_PRIORITY' => 'u=0, i'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=9735d7ea13fc9605d14506ca94344da5; _csrf=766951c709c907cd34e626a72f1e0c845cecf44cb367d4ce1455657c1446d8fea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222F5-wToA2JIk1zk-fV1A85ri4Iuf2VAv%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1759193044.6118
+    'REQUEST_TIME' => 1759193044
+]
+2025-10-28 00:20:10 [::1][-][39a0e2fbf7336b00b392a99acb736958][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "apple-touch-icon-precomposed.png". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-10-28 00:20:10 [::1][-][39a0e2fbf7336b00b392a99acb736958][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '52456'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/apple-touch-icon-precomposed.png'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/apple-touch-icon-precomposed.png'
+    'PHP_SELF' => '/index.php/apple-touch-icon-precomposed.png'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Safari/20619.1.26.31.6 CFNetwork/1568.100.1 Darwin/24.0.0'
+    'REQUEST_TIME_FLOAT' => 1761610810.4736
+    'REQUEST_TIME' => 1761610810
+]
+2025-10-28 00:20:10 [::1][-][39a0e2fbf7336b00b392a99acb736958][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "apple-touch-icon.png". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-10-28 00:20:10 [::1][-][39a0e2fbf7336b00b392a99acb736958][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '39a0e2fbf7336b00b392a99acb736958'
+    '_csrf' => 'c5dc48cc8c1c17b9481962d7cc33c0a9b4b55966b71b61327c706a186dca1f27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wExrfzyUnLINcRzcIQUAQFc8iMjTD90J\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '52457'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/apple-touch-icon.png'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/apple-touch-icon.png'
+    'PHP_SELF' => '/index.php/apple-touch-icon.png'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => 'PHPSESSID=39a0e2fbf7336b00b392a99acb736958; _csrf=c5dc48cc8c1c17b9481962d7cc33c0a9b4b55966b71b61327c706a186dca1f27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wExrfzyUnLINcRzcIQUAQFc8iMjTD90J%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Safari/20619.1.26.31.6 CFNetwork/1568.100.1 Darwin/24.0.0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1761610810.4814
+    'REQUEST_TIME' => 1761610810
+]
+2025-10-28 00:24:57 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/group in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php:149
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('group', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/group', Array)
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-10-28 00:24:57 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'c43bdcc4d9fb114782130dd0eff3cb3b'
+    '_csrf' => 'c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge\";}'
+    '_xsrf' => '2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025'
+    'username-localhost-8888' => '\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '60113'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/site/group'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/site/group'
+    'PHP_SELF' => '/index.php/site/group'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_COOKIE' => 'PHPSESSID=c43bdcc4d9fb114782130dd0eff3cb3b; _csrf=c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge%22%3B%7D; _xsrf=2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025; username-localhost-8888=\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1761611097.4529
+    'REQUEST_TIME' => 1761611097
+]
+2025-10-28 00:26:43 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "roles". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('roles', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-10-28 00:26:43 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'c43bdcc4d9fb114782130dd0eff3cb3b'
+    '_csrf' => 'c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge\";}'
+    '_xsrf' => '2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025'
+    'username-localhost-8888' => '\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63073'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/roles'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/roles'
+    'PHP_SELF' => '/index.php/roles'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/schedule'
+    'HTTP_COOKIE' => 'PHPSESSID=c43bdcc4d9fb114782130dd0eff3cb3b; _csrf=c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge%22%3B%7D; _xsrf=2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025; username-localhost-8888=\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1761611203.2713
+    'REQUEST_TIME' => 1761611203
+]
+2025-10-28 00:26:49 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "roles". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('roles', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-10-28 00:26:49 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'c43bdcc4d9fb114782130dd0eff3cb3b'
+    '_csrf' => 'c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge\";}'
+    '_xsrf' => '2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025'
+    'username-localhost-8888' => '\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63259'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/roles'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/roles'
+    'PHP_SELF' => '/index.php/roles'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/roles'
+    'HTTP_COOKIE' => 'PHPSESSID=c43bdcc4d9fb114782130dd0eff3cb3b; _csrf=c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge%22%3B%7D; _xsrf=2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025; username-localhost-8888=\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1761611209.8371
+    'REQUEST_TIME' => 1761611209
+]
+2025-10-28 00:26:50 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "roles". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('roles', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-10-28 00:26:50 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'c43bdcc4d9fb114782130dd0eff3cb3b'
+    '_csrf' => 'c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge\";}'
+    '_xsrf' => '2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025'
+    'username-localhost-8888' => '\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63292'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/roles'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/roles'
+    'PHP_SELF' => '/index.php/roles'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/roles'
+    'HTTP_COOKIE' => 'PHPSESSID=c43bdcc4d9fb114782130dd0eff3cb3b; _csrf=c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge%22%3B%7D; _xsrf=2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025; username-localhost-8888=\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1761611210.9084
+    'REQUEST_TIME' => 1761611210
+]
+2025-10-28 00:27:09 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "users". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('users', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-10-28 00:27:09 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'c43bdcc4d9fb114782130dd0eff3cb3b'
+    '_csrf' => 'c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge\";}'
+    '_xsrf' => '2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025'
+    'username-localhost-8888' => '\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63798'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/users'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/users'
+    'PHP_SELF' => '/index.php/users'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/role'
+    'HTTP_COOKIE' => 'PHPSESSID=c43bdcc4d9fb114782130dd0eff3cb3b; _csrf=c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge%22%3B%7D; _xsrf=2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025; username-localhost-8888=\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1761611229.1659
+    'REQUEST_TIME' => 1761611229
+]
+2025-10-28 00:27:14 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "users". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('users', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-10-28 00:27:14 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'c43bdcc4d9fb114782130dd0eff3cb3b'
+    '_csrf' => 'c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge\";}'
+    '_xsrf' => '2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025'
+    'username-localhost-8888' => '\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63943'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/users'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/users'
+    'PHP_SELF' => '/index.php/users'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/users'
+    'HTTP_COOKIE' => 'PHPSESSID=c43bdcc4d9fb114782130dd0eff3cb3b; _csrf=c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge%22%3B%7D; _xsrf=2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025; username-localhost-8888=\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1761611234.5402
+    'REQUEST_TIME' => 1761611234
+]
+2025-10-28 00:27:15 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "users". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('users', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-10-28 00:27:15 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'c43bdcc4d9fb114782130dd0eff3cb3b'
+    '_csrf' => 'c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge\";}'
+    '_xsrf' => '2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025'
+    'username-localhost-8888' => '\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63976'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/users'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/users'
+    'PHP_SELF' => '/index.php/users'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/users'
+    'HTTP_COOKIE' => 'PHPSESSID=c43bdcc4d9fb114782130dd0eff3cb3b; _csrf=c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge%22%3B%7D; _xsrf=2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025; username-localhost-8888=\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1761611235.4967
+    'REQUEST_TIME' => 1761611235
+]
+2025-10-28 01:04:33 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:476
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(181): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(294): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(265): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(301): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-10-28 01:04:33 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'c43bdcc4d9fb114782130dd0eff3cb3b'
+    '_csrf' => 'c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge\";}'
+    '_xsrf' => '2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025'
+    'username-localhost-8888' => '\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50747'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_COOKIE' => 'PHPSESSID=c43bdcc4d9fb114782130dd0eff3cb3b; _csrf=c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge%22%3B%7D; _xsrf=2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025; username-localhost-8888=\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1761613473.2111
+    'REQUEST_TIME' => 1761613473
+]
+2025-10-28 01:13:14 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-10-28 01:13:14 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'c43bdcc4d9fb114782130dd0eff3cb3b'
+    '_csrf' => 'c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge\";}'
+    '_xsrf' => '2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025'
+    'username-localhost-8888' => '\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50871'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_COOKIE' => 'PHPSESSID=c43bdcc4d9fb114782130dd0eff3cb3b; _csrf=c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge%22%3B%7D; _xsrf=2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025; username-localhost-8888=\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1761613994.8452
+    'REQUEST_TIME' => 1761613994
+]
+2025-10-28 01:16:02 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-10-28 01:16:02 [::1][-][c43bdcc4d9fb114782130dd0eff3cb3b][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'c43bdcc4d9fb114782130dd0eff3cb3b'
+    '_csrf' => 'c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge\";}'
+    '_xsrf' => '2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025'
+    'username-localhost-8888' => '\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50903'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_COOKIE' => 'PHPSESSID=c43bdcc4d9fb114782130dd0eff3cb3b; _csrf=c70822cf550ff7836a568713839249f433807f361a0f45e42c07f24a43be67d2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sDdZJh363i9ZD6f6zoU_IwCiZbw3lWge%22%3B%7D; _xsrf=2|91164a60|fed6809e7b972d92a6722d9c1e44d514|1760016025; username-localhost-8888=\"2|1:0|10:1760016025|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICI0YzQ0ZjU2YjY2YzU0YjBhYmM1YjFhN2JiYTdlOWE1ZCIsICJuYW1lIjogIkFub255bW91cyBWYWxldHVkbyIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIFZhbGV0dWRvIiwgImluaXRpYWxzIjogIkFWIiwgImNvbG9yIjogbnVsbH0=|aba375b96a090b05b0f6eb74b0f079a5d3c2a52a7f810491f8963c876c645d85\"'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1761614162.6128
+    'REQUEST_TIME' => 1761614162
+]
+2025-11-25 00:06:16 [::1][-][305fcd11da93c328808d9a63cd283347][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "apple-touch-icon-precomposed.png". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:564
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-11-25 00:06:16 [::1][-][305fcd11da93c328808d9a63cd283347][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57946'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/apple-touch-icon-precomposed.png'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/apple-touch-icon-precomposed.png'
+    'PHP_SELF' => '/index.php/apple-touch-icon-precomposed.png'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Safari/20619.1.26.31.6 CFNetwork/1568.100.1 Darwin/24.0.0'
+    'REQUEST_TIME_FLOAT' => 1764029176.1166
+    'REQUEST_TIME' => 1764029176
+]
+2025-11-25 00:06:16 [::1][-][305fcd11da93c328808d9a63cd283347][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "apple-touch-icon.png". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:564
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-11-25 00:06:16 [::1][-][305fcd11da93c328808d9a63cd283347][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '305fcd11da93c328808d9a63cd283347'
+    '_csrf' => '82c5b8cccb59627c08a5d431d256c1b59167458887b13fcc83ee8ed59869c9b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"YTXW3jaB2wcMatAL1X-54T9EcjF-2fwD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57947'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/apple-touch-icon.png'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/apple-touch-icon.png'
+    'PHP_SELF' => '/index.php/apple-touch-icon.png'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => 'PHPSESSID=305fcd11da93c328808d9a63cd283347; _csrf=82c5b8cccb59627c08a5d431d256c1b59167458887b13fcc83ee8ed59869c9b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YTXW3jaB2wcMatAL1X-54T9EcjF-2fwD%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Safari/20619.1.26.31.6 CFNetwork/1568.100.1 Darwin/24.0.0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1764029176.1871
+    'REQUEST_TIME' => 1764029176
+]
+2025-11-25 00:06:22 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-11-25 00:06:22 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '55d6ff3e554b47ae9b09039fcb04561f'
+    '_csrf' => '92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57965'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/lesson'
+    'HTTP_COOKIE' => 'PHPSESSID=55d6ff3e554b47ae9b09039fcb04561f; _csrf=92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1764029182.0139
+    'REQUEST_TIME' => 1764029182
+]
+2025-11-25 00:06:39 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-11-25 00:06:39 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '55d6ff3e554b47ae9b09039fcb04561f'
+    '_csrf' => '92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57968'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/lesson'
+    'HTTP_COOKIE' => 'PHPSESSID=55d6ff3e554b47ae9b09039fcb04561f; _csrf=92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1764029199.1937
+    'REQUEST_TIME' => 1764029199
+]
+2025-11-25 00:19:26 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-11-25 00:19:26 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '55d6ff3e554b47ae9b09039fcb04561f'
+    '_csrf' => '92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58086'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_COOKIE' => 'PHPSESSID=55d6ff3e554b47ae9b09039fcb04561f; _csrf=92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1764029966.9524
+    'REQUEST_TIME' => 1764029966
+]
+2025-11-25 00:21:47 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(188): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(176): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-11-25 00:21:47 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '55d6ff3e554b47ae9b09039fcb04561f'
+    '_csrf' => '92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58119'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_COOKIE' => 'PHPSESSID=55d6ff3e554b47ae9b09039fcb04561f; _csrf=92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1764030107.744
+    'REQUEST_TIME' => 1764030107
+]
+2025-11-25 00:21:50 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(188): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(176): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-11-25 00:21:50 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '55d6ff3e554b47ae9b09039fcb04561f'
+    '_csrf' => '92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58121'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_COOKIE' => 'PHPSESSID=55d6ff3e554b47ae9b09039fcb04561f; _csrf=92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1764030110.3703
+    'REQUEST_TIME' => 1764030110
+]
+2025-11-25 00:32:04 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "packages/core/main.css". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:564
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('packages/core/m...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-11-25 00:32:04 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '55d6ff3e554b47ae9b09039fcb04561f'
+    '_csrf' => '92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58250'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/packages/core/main.css'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/packages/core/main.css'
+    'PHP_SELF' => '/index.php/packages/core/main.css'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=55d6ff3e554b47ae9b09039fcb04561f; _csrf=92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'REQUEST_TIME_FLOAT' => 1764030724.275
+    'REQUEST_TIME' => 1764030724
+]
+2025-11-25 00:32:04 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "packages/daygrid/main.css". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:564
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('packages/daygri...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-11-25 00:32:04 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '55d6ff3e554b47ae9b09039fcb04561f'
+    '_csrf' => '92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58251'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/packages/daygrid/main.css'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/packages/daygrid/main.css'
+    'PHP_SELF' => '/index.php/packages/daygrid/main.css'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=55d6ff3e554b47ae9b09039fcb04561f; _csrf=92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'REQUEST_TIME_FLOAT' => 1764030724.2825
+    'REQUEST_TIME' => 1764030724
+]
+2025-11-25 00:32:04 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "packages/core/main.js". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:564
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('packages/core/m...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-11-25 00:32:04 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '55d6ff3e554b47ae9b09039fcb04561f'
+    '_csrf' => '92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58254'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/packages/core/main.js'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/packages/core/main.js'
+    'PHP_SELF' => '/index.php/packages/core/main.js'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=55d6ff3e554b47ae9b09039fcb04561f; _csrf=92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'REQUEST_TIME_FLOAT' => 1764030724.2855
+    'REQUEST_TIME' => 1764030724
+]
+2025-11-25 00:32:04 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "packages/daygrid/main.js". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:564
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('packages/daygri...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-11-25 00:32:04 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '55d6ff3e554b47ae9b09039fcb04561f'
+    '_csrf' => '92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58255'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/packages/daygrid/main.js'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/packages/daygrid/main.js'
+    'PHP_SELF' => '/index.php/packages/daygrid/main.js'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=55d6ff3e554b47ae9b09039fcb04561f; _csrf=92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'REQUEST_TIME_FLOAT' => 1764030724.2876
+    'REQUEST_TIME' => 1764030724
+]
+2025-11-25 00:32:08 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-11-25 00:32:08 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '55d6ff3e554b47ae9b09039fcb04561f'
+    '_csrf' => '92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58259'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_COOKIE' => 'PHPSESSID=55d6ff3e554b47ae9b09039fcb04561f; _csrf=92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1764030728.6513
+    'REQUEST_TIME' => 1764030728
+]
+2025-11-25 00:53:49 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][error][Error] Error: Class "yii2fullcalendar\models\Event" not found in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php:29
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#5 [internal function]: app\controllers\ScheduleController->actionIndex()
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2025-11-25 00:53:49 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '55d6ff3e554b47ae9b09039fcb04561f'
+    '_csrf' => '92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58661'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_COOKIE' => 'PHPSESSID=55d6ff3e554b47ae9b09039fcb04561f; _csrf=92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REQUEST_TIME_FLOAT' => 1764032029.9025
+    'REQUEST_TIME' => 1764032029
+]
+2025-11-25 01:03:41 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-11-25 01:03:41 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '55d6ff3e554b47ae9b09039fcb04561f'
+    '_csrf' => '92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58797'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_COOKIE' => 'PHPSESSID=55d6ff3e554b47ae9b09039fcb04561f; _csrf=92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REQUEST_TIME_FLOAT' => 1764032621.506
+    'REQUEST_TIME' => 1764032621
+]
+2025-11-25 01:03:45 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-11-25 01:03:45 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '55d6ff3e554b47ae9b09039fcb04561f'
+    '_csrf' => '92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58799'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_COOKIE' => 'PHPSESSID=55d6ff3e554b47ae9b09039fcb04561f; _csrf=92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REQUEST_TIME_FLOAT' => 1764032625.514
+    'REQUEST_TIME' => 1764032625
+]
+2025-11-25 01:03:46 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-11-25 01:03:46 [::1][-][55d6ff3e554b47ae9b09039fcb04561f][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '55d6ff3e554b47ae9b09039fcb04561f'
+    '_csrf' => '92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58802'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_COOKIE' => 'PHPSESSID=55d6ff3e554b47ae9b09039fcb04561f; _csrf=92abf93a79c7b17c7c350e7b88429cd0b4149be98f41c425ea8a1decb0fa87a7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jQqi-c82feGHdAGNm0VCX0pG_BMLa7KJ%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REQUEST_TIME_FLOAT' => 1764032626.1291
+    'REQUEST_TIME' => 1764032626
+]
+2025-12-02 00:28:49 [::1][-][cd9303fb6eed7c5ca66e097517390514][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "apple-touch-icon-precomposed.png". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:564
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-12-02 00:28:49 [::1][-][cd9303fb6eed7c5ca66e097517390514][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56566'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/apple-touch-icon-precomposed.png'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/apple-touch-icon-precomposed.png'
+    'PHP_SELF' => '/index.php/apple-touch-icon-precomposed.png'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Safari/20619.1.26.31.6 CFNetwork/1568.100.1 Darwin/24.0.0'
+    'REQUEST_TIME_FLOAT' => 1764635329.8183
+    'REQUEST_TIME' => 1764635329
+]
+2025-12-02 00:28:49 [::1][-][cd9303fb6eed7c5ca66e097517390514][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "apple-touch-icon.png". in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php:564
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2025-12-02 00:28:49 [::1][-][cd9303fb6eed7c5ca66e097517390514][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'cd9303fb6eed7c5ca66e097517390514'
+    '_csrf' => '66645982c8d28e47e56b5ceb32b77265f6ed31610699ff3657997727b949d418a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mLbz04wslLnmHtjuzezpuCE3fgiSFDKS\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56567'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/apple-touch-icon.png'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/apple-touch-icon.png'
+    'PHP_SELF' => '/index.php/apple-touch-icon.png'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => 'PHPSESSID=cd9303fb6eed7c5ca66e097517390514; _csrf=66645982c8d28e47e56b5ceb32b77265f6ed31610699ff3657997727b949d418a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mLbz04wslLnmHtjuzezpuCE3fgiSFDKS%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Safari/20619.1.26.31.6 CFNetwork/1568.100.1 Darwin/24.0.0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1764635329.8238
+    'REQUEST_TIME' => 1764635329
+]
+2025-12-02 00:28:52 [::1][-][34af4dc43aa49bea9c93502c385b5718][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-12-02 00:28:52 [::1][-][34af4dc43aa49bea9c93502c385b5718][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '34af4dc43aa49bea9c93502c385b5718'
+    '_csrf' => '39660a88d7db0603675960a5c36c1868ca392fbf807ff7749593b9afd63739bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tKXM2CiCjn14LsiGWYpYZWIGTKDtSyDp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56569'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_COOKIE' => 'PHPSESSID=34af4dc43aa49bea9c93502c385b5718; _csrf=39660a88d7db0603675960a5c36c1868ca392fbf807ff7749593b9afd63739bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tKXM2CiCjn14LsiGWYpYZWIGTKDtSyDp%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REQUEST_TIME_FLOAT' => 1764635332.7018
+    'REQUEST_TIME' => 1764635332
+]
+2025-12-02 00:28:59 [::1][-][34af4dc43aa49bea9c93502c385b5718][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-12-02 00:28:59 [::1][-][34af4dc43aa49bea9c93502c385b5718][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '34af4dc43aa49bea9c93502c385b5718'
+    '_csrf' => '39660a88d7db0603675960a5c36c1868ca392fbf807ff7749593b9afd63739bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tKXM2CiCjn14LsiGWYpYZWIGTKDtSyDp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56571'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_COOKIE' => 'PHPSESSID=34af4dc43aa49bea9c93502c385b5718; _csrf=39660a88d7db0603675960a5c36c1868ca392fbf807ff7749593b9afd63739bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tKXM2CiCjn14LsiGWYpYZWIGTKDtSyDp%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1764635339.2232
+    'REQUEST_TIME' => 1764635339
+]
+2025-12-02 00:44:57 [::1][-][34af4dc43aa49bea9c93502c385b5718][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-12-02 00:44:57 [::1][-][34af4dc43aa49bea9c93502c385b5718][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '34af4dc43aa49bea9c93502c385b5718'
+    '_csrf' => '39660a88d7db0603675960a5c36c1868ca392fbf807ff7749593b9afd63739bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tKXM2CiCjn14LsiGWYpYZWIGTKDtSyDp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56636'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_COOKIE' => 'PHPSESSID=34af4dc43aa49bea9c93502c385b5718; _csrf=39660a88d7db0603675960a5c36c1868ca392fbf807ff7749593b9afd63739bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tKXM2CiCjn14LsiGWYpYZWIGTKDtSyDp%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1764636297.0928
+    'REQUEST_TIME' => 1764636297
+]
+2025-12-02 00:52:44 [::1][-][34af4dc43aa49bea9c93502c385b5718][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-12-02 00:52:44 [::1][-][34af4dc43aa49bea9c93502c385b5718][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '34af4dc43aa49bea9c93502c385b5718'
+    '_csrf' => '39660a88d7db0603675960a5c36c1868ca392fbf807ff7749593b9afd63739bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tKXM2CiCjn14LsiGWYpYZWIGTKDtSyDp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56714'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_COOKIE' => 'PHPSESSID=34af4dc43aa49bea9c93502c385b5718; _csrf=39660a88d7db0603675960a5c36c1868ca392fbf807ff7749593b9afd63739bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tKXM2CiCjn14LsiGWYpYZWIGTKDtSyDp%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1764636764.2036
+    'REQUEST_TIME' => 1764636764
+]
+2025-12-02 00:59:13 [::1][-][34af4dc43aa49bea9c93502c385b5718][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-12-02 00:59:13 [::1][-][34af4dc43aa49bea9c93502c385b5718][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '34af4dc43aa49bea9c93502c385b5718'
+    '_csrf' => '39660a88d7db0603675960a5c36c1868ca392fbf807ff7749593b9afd63739bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tKXM2CiCjn14LsiGWYpYZWIGTKDtSyDp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56940'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_COOKIE' => 'PHPSESSID=34af4dc43aa49bea9c93502c385b5718; _csrf=39660a88d7db0603675960a5c36c1868ca392fbf807ff7749593b9afd63739bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tKXM2CiCjn14LsiGWYpYZWIGTKDtSyDp%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1764637153.6076
+    'REQUEST_TIME' => 1764637153
+]
+2025-12-02 00:59:18 [::1][-][34af4dc43aa49bea9c93502c385b5718][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/bower-asset/fullcalendar/dist in /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php:497
+Stack trace:
+#0 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(208): yii\web\AssetManager->publish('/Users/fr32hy/D...', Array)
+#1 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(312): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetManager.php(283): yii\web\AssetManager->loadBundle('yii2fullcalenda...', Array, true)
+#3 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/View.php(328): yii\web\AssetManager->getBundle('yii2fullcalenda...')
+#4 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/AssetBundle.php(152): yii\web\View->registerAssetBundle('yii2fullcalenda...')
+#5 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(220): yii\web\AssetBundle::register(Object(yii\web\View))
+#6 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/philippfrenzel/yii2fullcalendar/yii2fullcalendar.php(208): yii2fullcalendar\yii2fullcalendar->registerPlugin()
+#7 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Widget.php(149): yii2fullcalendar\yii2fullcalendar->run()
+#8 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/views/schedule/index.php(47): yii\base\Widget::widget(Array)
+#9 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(348): require('/Users/fr32hy/D...')
+#10 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile('/Users/fr32hy/D...', Array)
+#11 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile('/Users/fr32hy/D...', Array, Object(app\controllers\ScheduleController))
+#12 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(413): yii\base\View->render('index', Array, Object(app\controllers\ScheduleController))
+#13 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/controllers/ScheduleController.php(44): yii\base\Controller->render('index', Array)
+#14 [internal function]: app\controllers\ScheduleController->actionIndex()
+#15 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/InlineAction.php(60): call_user_func_array(Array, Array)
+#16 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Module.php(555): yii\base\Controller->runAction('', Array)
+#18 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('schedule', Array)
+#19 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php(12): yii\base\Application->run()
+#21 {main}
+2025-12-02 00:59:18 [::1][-][34af4dc43aa49bea9c93502c385b5718][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '34af4dc43aa49bea9c93502c385b5718'
+    '_csrf' => '39660a88d7db0603675960a5c36c1868ca392fbf807ff7749593b9afd63739bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tKXM2CiCjn14LsiGWYpYZWIGTKDtSyDp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56942'
+    'SERVER_SOFTWARE' => 'PHP/8.4.1 (Development Server)'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '3000'
+    'REQUEST_URI' => '/schedule'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/fr32hy/Desktop/Other/praktika/yii2-circles/web/index.php'
+    'PATH_INFO' => '/schedule'
+    'PHP_SELF' => '/index.php/schedule'
+    'HTTP_HOST' => 'localhost:3000'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_REFERER' => 'http://localhost:3000/'
+    'HTTP_COOKIE' => 'PHPSESSID=34af4dc43aa49bea9c93502c385b5718; _csrf=39660a88d7db0603675960a5c36c1868ca392fbf807ff7749593b9afd63739bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tKXM2CiCjn14LsiGWYpYZWIGTKDtSyDp%22%3B%7D'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'REQUEST_TIME_FLOAT' => 1764637158.3177
+    'REQUEST_TIME' => 1764637158
+]
